@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: #900C3F;
+    
+}
+
+.container{
+    width: 600px auto;
+    height: 600px;
+    background-color: #F875AA;
+    box-shadow: 15px 20px 15px#000;
+    /* CDF5FD */
+}
+
+.input{
+    /* background-color: aqua; */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.input input{
+    /* box-shadow: 2px 2px #fff; */
+    color: #fff;
+    border-radius: 7px;
+    background-color: #3F1D38;
+    text-align: center;
+    width: 300px;
+    height:30px;
+}
+
+::placeholder{
+    color: #C3ACD0;
+}
+
+.input .button{
+    /* width: 50px auto;
+    /
+    display: flex; */
+    padding-top:20px;
+    flex-direction: column;
+}
+
+.input .button button{
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    /* width: 50px auto; */
+    /* font-size: 1rem; */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.submit{
+    border-radius: 10px;
+    box-shadow: 3px 5px #000;
+    background-color: #8ADAB2;
+    color: #000;
+
+}
+.reset{
+    border-radius: 10px;
+    box-shadow: 3px 5px #000;
+    background-color: #F24C3D;
+    color: #000;
+}
+.qrcode{
+    margin-top: 30px;
+    margin-left: 50px;
+    align-items: center;
+    text-align: center;
+    /* background-color: #e74c3c; */
+    color: #fff;
+    padding: 20px;
+    margin-top: auto; /* Push to the bottom */
+    text-align: center;
+}
